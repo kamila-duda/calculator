@@ -43,7 +43,9 @@ header {
 	padding: 20px;
 	font-size: 20px;
 }
-
+#wynik:focus{
+	outline: none;
+}
 button {
 	width: 120px;
 	height: 60px;
@@ -51,15 +53,14 @@ button {
 	border-radius: 15px;
 	font-size: 20px;
 	float: left;
-	cursor: pointer;`
-}
-button::-moz-focus-inner { 
-  border: 0; 
+	cursor: pointer;
 }
 button:hover {
 	background-color: #bab8b7;
 }
-
+button:focus{
+	outline: none;
+}
 #tile2 {
 	float: left;
 	
